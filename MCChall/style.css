@@ -1,10 +1,12 @@
 body{
     min-height:100vh;
     overflow-x: hidden;
+    background-color:rgba(255,255,255,0.);
 }
 .ff{
     width: 250px;
     margin: 15px;
+    
 }
 img{
     width:100%;
@@ -19,7 +21,7 @@ img{
 }
 
 .ff:hover img{
-      transform: rotate(180deg);
+      transform:rotateX(180deg);
 }
 .container{
     position: absolute;
